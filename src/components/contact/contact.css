@@ -1,0 +1,32 @@
+h4,h5,a{
+    color: #f3eeee;
+}
+h2{
+    color: #6c096c;
+}
+
+.contact__options {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+  
+.contact__option {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.contact__option > .contact__option__icon:first-child {
+    font-size: 2em;
+    color: white !important;
+  }
+  
+  .contact__option > .contact__option__icon:nth-child(2) {
+    font-size: 2em;
+    color: blue !important;
+  }
+  
+  .contact__option > .contact__option__icon:last-child {
+    font-size: 2em;
+    color: green !important;
+  }
